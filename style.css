@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap");
-/* =========================================================
-   AVL INFO — PREMIUM COMING SOON WEBSITE
-   ========================================================= */
 
 /* =========================================================
-   ROOT
+   AVL INFO — PREMIUM COMING SOON WEBSITE
    ========================================================= */
 
 :root {
@@ -26,7 +23,6 @@
   --border-light: #e8eef6;
 
   --white: #ffffff;
-
   --background: #f7faff;
 }
 
@@ -36,9 +32,7 @@
 
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -71,7 +65,6 @@ body {
 
 a {
   color: inherit;
-
   text-decoration: none;
 }
 
@@ -85,61 +78,43 @@ img {
 
 .header {
   width: 100%;
-
   max-width: 1320px;
 
   height: 82px;
 
   margin: 0 auto;
-
   padding: 0 38px;
 
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 
   position: relative;
-
   z-index: 10;
 }
 
-/* Logo */
-
 .logo {
   display: flex;
-
   align-items: center;
 }
 
 .logo img {
   width: 120px;
-
   height: auto;
-
   display: block;
 }
 
-/* Header right */
-
 .header-right {
   display: flex;
-
   align-items: center;
-
   gap: 30px;
 }
 
-/* Website status */
-
 .status {
   display: flex;
-
   align-items: center;
 
-  font-size: 8px;
-
+  font-size: 0.7rem;
   font-weight: 800;
 
   letter-spacing: 0.18em;
@@ -149,11 +124,9 @@ img {
 
 .status span {
   width: 7px;
-
   height: 7px;
 
   display: inline-block;
-
   flex-shrink: 0;
 
   border-radius: 50%;
@@ -165,11 +138,8 @@ img {
   box-shadow: 0 0 0 5px rgba(18, 100, 255, 0.09);
 }
 
-/* Contact */
-
 .contact-link {
-  font-size: 10px;
-
+  font-size: 0.8rem;
   font-weight: 800;
 
   color: var(--navy);
@@ -186,16 +156,14 @@ img {
 }
 
 /* =========================================================
-   MAIN CONTAINER
+   MAIN
    ========================================================= */
 
 main {
   width: 100%;
-
   max-width: 1320px;
 
   margin: 0 auto;
-
   padding: 0 38px;
 }
 
@@ -220,7 +188,7 @@ main {
 }
 
 /* =========================================================
-   HERO LEFT
+   HERO CONTENT
    ========================================================= */
 
 .hero-content {
@@ -229,7 +197,6 @@ main {
 
 .eyebrow {
   display: flex;
-
   align-items: center;
 
   gap: 10px;
@@ -239,7 +206,6 @@ main {
   color: #728198;
 
   font-size: 8px;
-
   font-weight: 800;
 
   letter-spacing: 0.22em;
@@ -247,11 +213,9 @@ main {
 
 .eyebrow span {
   width: 27px;
-
   height: 2px;
 
   display: block;
-
   flex-shrink: 0;
 
   background: var(--blue);
@@ -266,7 +230,7 @@ main {
 }
 
 /* =========================================================
-   MAIN HERO TITLE
+   HERO TITLE
    ========================================================= */
 
 h1 {
@@ -278,7 +242,7 @@ h1 {
 
   line-height: 0.99;
 
-  letter-spacing: 0.1rem;
+  letter-spacing: -0.055em;
 
   font-weight: 700;
 
@@ -287,9 +251,10 @@ h1 {
 
 h1 strong {
   color: #1264ff;
+
   font-weight: 700;
-  /* letter-spacing: -0.065em; */
-  letter-spacing: 0.1rem;
+
+  letter-spacing: -0.065em;
 }
 
 /* =========================================================
@@ -310,17 +275,15 @@ h1 strong {
 
 .description b {
   color: #263e61;
-
   font-weight: 700;
 }
 
 /* =========================================================
-   LAUNCH INFO CARD
+   LAUNCH CARD
    ========================================================= */
 
 .launch-info {
   width: 100%;
-
   max-width: 560px;
 
   min-height: 87px;
@@ -328,7 +291,6 @@ h1 strong {
   padding: 15px 20px;
 
   display: flex;
-
   align-items: center;
 
   background: rgba(255, 255, 255, 0.96);
@@ -342,13 +304,9 @@ h1 strong {
   margin-bottom: 18px;
 }
 
-/* Date */
-
 .launch-date {
   display: flex;
-
   flex-direction: column;
-
   gap: 5px;
 }
 
@@ -384,7 +342,6 @@ h1 strong {
 
 .divider {
   width: 1px;
-
   height: 42px;
 
   flex-shrink: 0;
@@ -398,7 +355,6 @@ h1 strong {
 
 .anniversary {
   display: flex;
-
   flex-direction: column;
 
   line-height: 1;
@@ -454,19 +410,16 @@ h1 strong {
 
 .countdown {
   display: flex;
-
   gap: 8px;
 }
 
 .count-box {
   width: 70px;
-
   height: 66px;
 
   display: flex;
 
   align-items: center;
-
   justify-content: center;
 
   flex-direction: column;
@@ -534,7 +487,6 @@ h1 strong {
   display: inline-flex;
 
   align-items: center;
-
   justify-content: center;
 
   gap: 14px;
@@ -555,8 +507,6 @@ h1 strong {
   transform: translateY(-2px);
 }
 
-/* Blue button */
-
 .primary {
   color: white;
 
@@ -570,8 +520,6 @@ h1 strong {
 
   box-shadow: 0 13px 27px rgba(18, 100, 255, 0.27);
 }
-
-/* White button */
 
 .secondary {
   color: var(--navy);
@@ -602,7 +550,7 @@ h1 strong {
 }
 
 /* =========================================================
-   FOUNDER IMAGE CARD
+   FOUNDER CARD
    ========================================================= */
 
 .founder-card {
@@ -627,15 +575,12 @@ h1 strong {
 
 .founder-card img {
   width: 100%;
-
   height: 100%;
 
   object-fit: cover;
 
   display: block;
 }
-
-/* Image dark gradient */
 
 .founder-card::after {
   content: "";
@@ -655,15 +600,15 @@ h1 strong {
   );
 }
 
-/* Top image label */
+/* =========================================================
+   IMAGE LABEL
+   ========================================================= */
 
 .image-label {
   position: absolute;
 
   top: 16px;
-
   left: 18px;
-
   right: 18px;
 
   z-index: 5;
@@ -681,13 +626,12 @@ h1 strong {
   letter-spacing: 0.16em;
 }
 
-/* Founder bottom */
+/* Founder overlay */
 
 .founder-overlay {
   position: absolute;
 
   left: 21px;
-
   right: 21px;
 
   bottom: 18px;
@@ -731,7 +675,6 @@ h1 strong {
 
 .image-decoration {
   width: 85px;
-
   height: 85px;
 
   position: absolute;
@@ -743,43 +686,36 @@ h1 strong {
 
 .image-decoration.top {
   top: 30px;
-
   left: 27px;
 
   border-right: 0;
-
   border-bottom: 0;
 }
 
 .image-decoration.bottom {
   right: 25px;
-
   bottom: 27px;
 
   border-left: 0;
-
   border-top: 0;
 }
 
 /* =========================================================
-   ANNIVERSARY GOLD BADGE
+   GOLD ANNIVERSARY BADGE
    ========================================================= */
 
 .gold-badge {
   position: absolute;
 
-  left: 12px;
-
-  top: 72px;
+  left: 8px;
+  top: 95px;
 
   width: 118px;
-
   height: 118px;
 
   display: flex;
 
   align-items: center;
-
   justify-content: center;
 
   flex-direction: column;
@@ -825,7 +761,6 @@ h1 strong {
   position: absolute;
 
   right: 0;
-
   bottom: 88px;
 
   width: 160px;
@@ -903,11 +838,9 @@ h1 strong {
   position: absolute;
 
   width: 300px;
-
   height: 300px;
 
   right: -100px;
-
   top: -110px;
 
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -922,7 +855,7 @@ h1 strong {
 
   line-height: 1.06;
 
-  letter-spacing: -0.05em;
+  letter-spacing: -0.035em;
 }
 
 .anniversary-section h2 em {
@@ -1006,7 +939,7 @@ h1 strong {
 
   line-height: 1.04;
 
-  letter-spacing: -0.055em;
+  letter-spacing: -0.035em;
 }
 
 .section-heading h2 em {
@@ -1070,7 +1003,6 @@ h1 strong {
   position: absolute;
 
   top: 15px;
-
   right: 15px;
 
   color: #a8b3c1;
@@ -1082,11 +1014,9 @@ h1 strong {
 
 .service-icon {
   width: 39px;
-
   height: 39px;
 
   display: grid;
-
   place-items: center;
 
   margin-bottom: 24px;
@@ -1138,17 +1068,13 @@ h1 strong {
   box-shadow: 0 18px 50px rgba(17, 49, 92, 0.08);
 }
 
-/* Blue + Gold side */
-
 .offer::before {
   content: "";
 
   position: absolute;
 
   top: 0;
-
   bottom: 0;
-
   left: 0;
 
   width: 7px;
@@ -1162,13 +1088,10 @@ h1 strong {
   );
 }
 
-/* Offer label */
-
 .offer-label {
   position: absolute;
 
   top: 20px;
-
   right: 28px;
 
   color: #a27b2b;
@@ -1179,8 +1102,6 @@ h1 strong {
 
   letter-spacing: 0.2em;
 }
-
-/* Offer inner */
 
 .offer-inner {
   min-height: 210px;
@@ -1194,17 +1115,13 @@ h1 strong {
   gap: 30px;
 }
 
-/* Offer icon */
-
 .offer-icon {
   width: 62px;
-
   height: 62px;
 
   flex-shrink: 0;
 
   display: grid;
-
   place-items: center;
 
   color: var(--blue);
@@ -1217,8 +1134,6 @@ h1 strong {
 
   box-shadow: inset 0 0 0 1px rgba(18, 100, 255, 0.08);
 }
-
-/* Offer main */
 
 .offer-main {
   min-width: 0;
@@ -1237,8 +1152,6 @@ h1 strong {
 
   letter-spacing: 0.19em;
 }
-
-/* 30% */
 
 .offer-main h2 {
   display: flex;
@@ -1259,12 +1172,10 @@ h1 strong {
 
   line-height: 0.85;
 
-  letter-spacing: -0.08em;
+  letter-spacing: -0.06em;
 
   text-shadow: 2px 3px 0 var(--gold-dark);
 }
-
-/* Percent */
 
 .offer-main h2 sup {
   position: relative;
@@ -1280,8 +1191,6 @@ h1 strong {
   text-shadow: none;
 }
 
-/* OFF badge */
-
 .offer-main h2 b {
   height: 37px;
 
@@ -1292,7 +1201,6 @@ h1 strong {
   display: inline-flex;
 
   align-items: center;
-
   justify-content: center;
 
   color: white;
@@ -1316,8 +1224,6 @@ h1 strong {
   text-shadow: none;
 }
 
-/* Bottom offer text */
-
 .offer-main p {
   color: #102b52;
 
@@ -1327,8 +1233,6 @@ h1 strong {
 
   letter-spacing: 0.17em;
 }
-
-/* Offer date */
 
 .offer-date {
   min-width: 180px;
@@ -1365,7 +1269,7 @@ h1 strong {
 }
 
 /* =========================================================
-   THANK YOU SECTION
+   THANK YOU
    ========================================================= */
 
 .thank-you {
@@ -1411,7 +1315,7 @@ h1 strong {
 
   line-height: 1.15;
 
-  letter-spacing: -0.04em;
+  letter-spacing: -0.025em;
 }
 
 .thank-you p {
@@ -1423,7 +1327,7 @@ h1 strong {
 }
 
 /* =========================================================
-   FOOTER
+   PREMIUM FOOTER
    ========================================================= */
 
 footer {
@@ -1431,11 +1335,11 @@ footer {
 
   max-width: 1320px;
 
-  min-height: 165px;
+  min-height: 175px;
 
   margin: 0 auto;
 
-  padding: 42px 38px 38px;
+  padding: 44px 38px 40px;
 
   display: flex;
 
@@ -1446,8 +1350,6 @@ footer {
   gap: 45px;
 }
 
-/* Footer brand */
-
 .footer-brand {
   display: flex;
 
@@ -1455,7 +1357,7 @@ footer {
 
   align-items: flex-start;
 
-  gap: 9px;
+  gap: 10px;
 }
 
 .footer-brand img {
@@ -1476,8 +1378,6 @@ footer {
   letter-spacing: 0.15em;
 }
 
-/* Footer links */
-
 .footer-details {
   display: grid;
 
@@ -1485,7 +1385,7 @@ footer {
 
   column-gap: 42px;
 
-  row-gap: 13px;
+  row-gap: 14px;
 
   align-items: center;
 
@@ -1493,7 +1393,7 @@ footer {
 
   color: #718098;
 
-  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 .footer-details a {
@@ -1513,7 +1413,7 @@ footer {
 }
 
 /* =========================================================
-   LIVE POPUP
+   PREMIUM LIVE POPUP
    ========================================================= */
 
 .live-popup {
@@ -1521,87 +1421,290 @@ footer {
 
   inset: 0;
 
-  z-index: 100;
+  z-index: 9999;
 
   display: grid;
 
   place-items: center;
 
-  padding: 20px;
+  padding: 22px;
 
-  background: rgba(2, 14, 35, 0.78);
+  background: rgba(3, 16, 40, 0.72);
 
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(12px);
+
+  -webkit-backdrop-filter: blur(12px);
+
+  animation: popupFadeIn 0.35s ease both;
 }
 
-.popup-box {
-  width: min(470px, 100%);
+/* =========================================================
+   POPUP BOX
+   ========================================================= */
 
-  padding: 40px;
+.popup-box {
+  width: min(450px, 100%);
 
   position: relative;
 
+  padding: 38px 42px 40px;
+
   text-align: center;
 
-  background: white;
+  background:
+    radial-gradient(
+      circle at 50% -20%,
+      rgba(18, 100, 255, 0.1),
+      transparent 45%
+    ),
+    #ffffff;
 
-  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
 
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.35);
+  border-radius: 24px;
+
+  box-shadow:
+    0 30px 80px rgba(0, 15, 45, 0.3),
+    0 5px 20px rgba(18, 100, 255, 0.08);
+
+  overflow: hidden;
+
+  animation: popupScaleIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.popup-box > img {
-  width: 115px;
+/* Top accent */
 
-  margin-bottom: 20px;
+.popup-box::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 4px;
+
+  background: linear-gradient(
+    90deg,
+    #1264ff 0%,
+    #1264ff 55%,
+    #f4b52f 55%,
+    #f4b52f 100%
+  );
 }
+
+/* Decorative circle */
+
+.popup-box::after {
+  content: "";
+
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  top: -105px;
+  right: -85px;
+
+  border-radius: 50%;
+
+  background: rgba(18, 100, 255, 0.055);
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   POPUP CLOSE BUTTON
+   ========================================================= */
 
 .popup-box button {
   position: absolute;
 
-  top: 11px;
+  top: 14px;
+  right: 16px;
 
-  right: 17px;
+  width: 32px;
+  height: 32px;
 
-  border: 0;
+  display: grid;
+  place-items: center;
 
-  background: none;
+  padding: 0;
 
-  color: #718098;
+  border: 1px solid #e3e9f2;
 
-  font-size: 27px;
+  border-radius: 50%;
 
-  cursor: pointer;
-}
+  background: #f7faff;
 
-.popup-box h2 {
-  margin-bottom: 10px;
+  color: #617089;
 
-  font-family: Manrope, sans-serif;
+  font-family: Arial, sans-serif;
 
-  font-size: 45px;
+  font-size: 21px;
+
+  font-weight: 400;
 
   line-height: 1;
 
-  letter-spacing: -0.06em;
+  cursor: pointer;
+
+  z-index: 10;
+
+  transition: 0.2s ease;
+}
+
+.popup-box button:hover {
+  color: white;
+
+  background: #061a40;
+
+  border-color: #061a40;
+
+  transform: rotate(90deg);
+}
+
+/* =========================================================
+   POPUP LOGO
+   ========================================================= */
+
+.popup-box > img {
+  width: 105px;
+
+  height: auto;
+
+  display: block;
+
+  margin: 2px auto 22px;
+}
+
+/* =========================================================
+   POPUP EYEBROW
+   ========================================================= */
+
+.popup-box .eyebrow {
+  justify-content: center;
+
+  margin-bottom: 15px;
+
+  font-size: 7px;
+
+  letter-spacing: 0.2rem;
+
+  color: #9a762c;
+}
+
+.popup-box .eyebrow span {
+  width: 22px;
+
+  height: 1.5px;
+
+  background: #f4b52f;
+}
+
+/* =========================================================
+   POPUP HEADING
+   ========================================================= */
+
+.popup-box h2 {
+  margin: 0 0 13px;
+
+  font-family: "Plus Jakarta Sans", "DM Sans", sans-serif;
+
+  font-size: 38px;
+
+  line-height: 1;
+
+  letter-spacing: 0.05rem;
+
+  font-weight: 700;
+
+  color: #061a40;
 }
 
 .popup-box h2 em {
-  color: var(--blue);
+  color: #1264ff;
 
   font-style: normal;
 }
 
+/* =========================================================
+   POPUP TEXT
+   ========================================================= */
+
 .popup-box p {
-  max-width: 330px;
+  max-width: 315px;
 
-  margin: 0 auto 22px;
+  margin: 0 auto 25px;
 
-  color: #718098;
+  color: #718099;
+
+  font-family: "DM Sans", sans-serif;
 
   font-size: 11px;
 
   line-height: 1.7;
+}
+
+/* =========================================================
+   POPUP BUTTON
+   ========================================================= */
+
+.popup-box .btn {
+  min-width: 175px;
+
+  min-height: 44px;
+
+  padding: 0 20px;
+
+  border-radius: 10px;
+
+  font-size: 10px;
+
+  letter-spacing: 0.04em;
+}
+
+.popup-box .primary {
+  background: #1264ff;
+
+  box-shadow: 0 10px 24px rgba(18, 100, 255, 0.22);
+}
+
+.popup-box .primary:hover {
+  background: #0757ed;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 14px 30px rgba(18, 100, 255, 0.28);
+}
+
+/* =========================================================
+   POPUP ANIMATION
+   ========================================================= */
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popupScaleIn {
+  from {
+    opacity: 0;
+
+    transform: translateY(15px) scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0) scale(1);
+  }
 }
 
 /* =========================================================
@@ -1821,7 +1924,7 @@ footer {
     border-top: 1px solid #e2e8f1;
   }
 
-  /* Thank you */
+  /* Thank You */
 
   .thank-you {
     display: block;
@@ -1867,6 +1970,42 @@ footer {
     gap: 12px;
 
     font-size: 10px;
+  }
+
+  /* Popup */
+
+  .live-popup {
+    padding: 18px;
+  }
+
+  .popup-box {
+    width: 100%;
+
+    padding: 34px 24px 32px;
+
+    border-radius: 21px;
+  }
+
+  .popup-box > img {
+    width: 95px;
+
+    margin-bottom: 20px;
+  }
+
+  .popup-box h2 {
+    font-size: 34px;
+  }
+
+  .popup-box p {
+    font-size: 10.5px;
+
+    max-width: 290px;
+  }
+
+  .popup-box .btn {
+    width: 100%;
+
+    max-width: 210px;
   }
 }
 
@@ -1921,5 +2060,19 @@ footer {
 
   .footer-brand img {
     width: 105px;
+  }
+
+  /* Small popup */
+
+  .popup-box {
+    padding: 32px 20px 28px;
+  }
+
+  .popup-box h2 {
+    font-size: 31px;
+  }
+
+  .popup-box > img {
+    width: 88px;
   }
 }
