@@ -12,6 +12,8 @@ const popup = document.getElementById("livePopup");
 
 const closePopup = document.getElementById("closePopup");
 
+const visitClick = document.getElementById("visitClick");
+
 function addZero(number) {
   return String(number).padStart(2, "0");
 }
@@ -94,6 +96,12 @@ CLOSE LIVE POPUP
 
 if (closePopup) {
   closePopup.addEventListener("click", function () {
+    popup.style.display = "none";
+  });
+}
+
+if(visitClick) {
+  visitClick.addEventListener("click", function () {
     popup.style.display = "none";
   });
 }
